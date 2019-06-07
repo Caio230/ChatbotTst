@@ -1,6 +1,5 @@
 (function () { //estamos usando uma função de invocação imediata (IIFE), como forma de encapsulamento, https://pedrotcaraujo.github.io/2014/12/01/funcoes-imediatas-IIFE/
     'use strict' //instruindo a minha aplicação a utilizar o padrão ES6
-  
     const express = require('express');
     const bodyParser = require('body-parser');
     const config = require('./config');
